@@ -54,8 +54,8 @@ const Home = () => (
             borderStyle="solid"
             maxWidth="100px"
             display="inline-block"
-            borderRadius="20px"
-            src="/images/Profile.jpg"
+            borderRadius="full"
+            src="/images/finalprofile.jpg"
             alt="Profile image"
             // resizeMode="strech"
             // borderTopWidth='px'
@@ -72,7 +72,7 @@ const Home = () => (
           
           When I was a kid, I used to wonder how everything around me works, I always tinker with my toys by breaking
           them down to see what is inside, then building them from the ground up again. I was a curious kid who likes asking why?
-          and will not stop looking for the answer. But my love for technology started since the moment I asked my brother to teach me how to use our first computer. 
+          and will not stop looking until I found the answer. But my love for technology started since the moment I asked my brother to teach me how to use our first computer. 
           Fast forward to the present day, now I am Full-Stack Developer with a burning passion for learning and problem-solving. 
         
           {/* <NextLink href="/works/inkdrop" scroll={false}>
@@ -185,11 +185,13 @@ const Home = () => (
         </SimpleGrid> */}
 
         <Box align="center" my={4}>
-          <Link href="/works" scroll={false} >
+          {/* <Link href="/resume/D" scroll={false} > */}
+          <a href="https://drive.google.com/file/d/1pvsqjTrUXnohvcPkfynXY9S78RDVORYa/view?usp=sharing" target="_blank">
             <Button rightIcon={<IoDownload/>} colorScheme="green" >
               My Resume
             </Button>
-          </Link>
+           </a>
+          {/* </Link> */}
         </Box>
       </Section>
     </Container>

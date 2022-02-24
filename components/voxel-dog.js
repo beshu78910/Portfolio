@@ -62,11 +62,15 @@ const VoxelDog = () => {
         scale,
         -scale,
         0.01,
-        50000
-      )
-      camera.position.copy(initialCameraPosition)
-      camera.lookAt(target)
-      setCamera(camera)
+        50000)
+      
+      // const width = window.width;
+      // const innerHeight = window.height;
+      // const camera = new THREE.PerspectiveCamera(45, width / innerHeight, 1, 1000);
+
+      // camera.position.copy(initialCameraPosition)
+      // camera.lookAt(target)
+      // setCamera(camera)
 
       const ambientLight = new THREE.AmbientLight(0xcccccc, 1)
       scene.add(ambientLight)
@@ -76,7 +80,7 @@ const VoxelDog = () => {
       controls.target = target
       setControls(controls)
 
-      loadGLTFModel(scene, '/dog.glb', {
+      loadGLTFModel(scene, '/pixel8.glb', {
         receiveShadow: false,
         castShadow: false
       }).then(() => {
