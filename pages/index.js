@@ -186,7 +186,7 @@ const Home = () => (
 
         <Box align="center" my={4}>
           {/* <Link href="/resume/D" scroll={false} > */}
-          <Link href="https://drive.google.com/file/d/1pvsqjTrUXnohvcPkfynXY9S78RDVORYa/view?usp=sharing" target="_blank">
+          <Link href="https://drive.google.com/file/d/1tQMFvx_GWAYs8BgzkU3MeTnAkB19F6Ig/view?usp=sharing" target="_blank">
             <Button rightIcon={<IoDownload/>} colorScheme="green" >
               My Resume
             </Button>
