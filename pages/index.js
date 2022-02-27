@@ -69,12 +69,12 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-          
-          When I was a kid, I used to wonder how everything around me works, I always tinker with my toys by breaking
-          them down to see what is inside, then building them from the ground up again. I was a curious kid who likes asking why?
-          and will not stop looking until I found the answer. But my love for technology started since the moment I asked my brother to teach me how to use our first computer. 
-          Fast forward to the present day, now I am Full-Stack Developer with a burning passion for learning and problem-solving. 
-        
+          When I was a child, I would always love to experiment with everything that I get my hands on.
+          I would always tinker with them by breaking every component down to see what is inside,
+          then rebuilding them up again from the beginning. So when my brother taught me how to use our first computer,
+          I immediately fell in love with technology. Throughout my journey of becoming a developer, this love becomes a passion.
+          A passion for building projects that made an impact on my daily lives and others,
+          a passion for learning and problem-solving. I am a software developer with expertise in full-stack and unity development.
           {/* <NextLink href="/works/inkdrop" scroll={false}>
             <Link>Inkdrop</Link>
           </NextLink>

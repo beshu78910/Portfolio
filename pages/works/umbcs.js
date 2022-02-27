@@ -5,19 +5,20 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Netflix Clone">
+  <Layout title="UMBCS">
     <Container>
       <Title>
-        UMBCS <Badge>2021</Badge>
+        UMBCS <Badge>FRONT-END</Badge>
       </Title>
       <P>
-        The goal of this project is to implement a new website with improved functionality and design while eliminating the limitations of the old UMBCS website. To achieve this goal, our team choose Jekyll framework for the project, along with HTML/CSS for markup and styling 
+        The goal of this project is to implement a new website with improved functionality and design while eliminating the limitations of the old UMBCS website. 
+        To achieve this goal, our team choose Jekyll framework for the project, along with HTML/CSS for markup and styling 
         with JavaScript as the main scripting language.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://rodsk.github.io/umbcs/">
+          <Link href="https://rodsk.github.io/umbcs/" target="_blank">
           https://rodsk.github.io/umbcs/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
@@ -31,8 +32,14 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>SOURCE</Meta>
-          <Link href="https://rodsk.github.io/umbcs/">
+          <Link href="https://github.com/beshu78910/umbcs" target="_blank">
           github.com/beshu78910/umbcs <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Meta>DOCUMENT</Meta>
+          <Link href="https://drive.google.com/file/d/1KCOztlxQrhvKbjq4iO6lE3y-k0ly8d9N/view?usp=sharing" target="_blank">
+          UMBCS Doc <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         {/* <ListItem>

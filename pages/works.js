@@ -1,17 +1,17 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbInkdrop from '../public/images/works/umbeye.png'
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
+import thumbWalknote from '../public/images/works/campvisorzoom.png'
 import thumbFourPainters from '../public/images/works/stiw.png'
 import thumbMenkiki from '../public/images/works/striveclose.png'
-import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
-import thumbStyly from '../public/images/works/styly_eyecatch.png'
-import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
-import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
-import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
+// import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
+// import thumbStyly from '../public/images/works/styly_eyecatch.png'
+// import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
+// import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
+// import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -28,11 +28,11 @@ const Works = () => (
         </Section>
         <Section>
           <WorkGridItem
-            id="walknote"
-            title="walknote"
+            id="campvisor"
+            title="CampVisor"
             thumbnail={thumbWalknote}
           >
-            Music recommendation app for iOS
+            CampVisor is a Full-Stack web app application where you can check and review campgrounds.
           </WorkGridItem>
         </Section>
 

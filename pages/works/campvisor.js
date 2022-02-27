@@ -4,7 +4,6 @@ import {
   Link,
   List,
   ListItem,
-  SimpleGrid,
   UnorderedList,
   Heading,
   Center
@@ -15,44 +14,42 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="walknote">
+  <Layout title="CampVisor">
     <Container>
       <Title>
-        walknote <Badge>2011-2016</Badge>
+        CampVisor <Badge>2022</Badge>
       </Title>
       <P>
-        walknote recommends new music you may like based on your music
-        preferences by recognizing your favorite songs stored in your device.
-        You can listen to recommended music just like a radio!
+         A fully responsive web app that lets the user view existing campgrounds
+        that based on real location using Mapbox. Users can also add new campgrounds to the
+        database if desire. CampVisor also features a variety of options such as the ability
+        to create a new account, leave review, delete or edit an existing campground that they previously created.
       </P>
-      <P>
-        This service has been closed. Thank you for over 130,000 registered
-        users!
-      </P>
+     
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>iOS</span>
+          <span>Windows</span>
         </ListItem>
         <ListItem>
-          <Meta>Blogpost</Meta>
-          <Link href="https://archive.craftz.dog/blog.odoruinu.net/2016/09/06/farewell-from-walknote/">
-            音楽発掘アプリwalknoteクローズのお知らせ{' '}
+          <Meta>Website</Meta>
+          <Link href="https://ancient-badlands-20422.herokuapp.com/" target="_blank">
+            CampVisor {' '}
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
-          <Meta>Stack</Meta>
-          <span>Objective-C, PHP, MongoDB</span>
+          <Meta>Technologies</Meta>
+          <span>HTML5/CSS3, JavaScript, MongoDB, Express, Heroku, Node.js.</span>
         </ListItem>
       </List>
 
       <Heading as="h4" fontSize={16} my={6}>
-        <Center>Media coverage</Center>
+        <Center>Screen Shots</Center>
       </Heading>
 
       <UnorderedList my={4}>
-        <ListItem>
+        {/* <ListItem>
           <Link href="http://renewal49.hateblo.jp/entry/20120710/1341925681">
             <Badge mr={2}>リニューアル式</Badge>
             強力すぎて紹介しそびれていた音楽好きのための神アプリ『walknote』
@@ -83,16 +80,16 @@ const Work = () => (
             「YOU、これ聴いちゃいなよ」自分好みの曲が勝手に集まる音楽プレーヤー『walknote』
           </Link>
           <ExternalLinkIcon mx="2px" />
-        </ListItem>
+        </ListItem> */}
       </UnorderedList>
 
-      <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/walknote_01.png" alt="walknote" />
-        <WorkImage src="/images/works/walknote_02.png" alt="walknote" />
-      </SimpleGrid>
-    
-      <WorkImage src="/images/works/walknote_04.png" alt="walknote" />
-      <WorkImage src="/images/works/walknote_05.png" alt="walknote" />
+      
+      <WorkImage src="https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/4b636d0e-3d63-4015-8a55-dadd545b7f03.gif?ClientID=vimeo-core-prod&Date=1645978002&Signature=1e03593f56fd01354d9ea08e3a16f6052742bd5b" alt="walknote" />
+      <WorkImage src="https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/c0d4682d-9bfc-4988-bcb7-85320044146e.gif?ClientID=vimeo-core-prod&Date=1645978863&Signature=2af3065cc306a8f8605b22d2bedea99ac7eff4cd" alt="walknote" />
+        <WorkImage src="/images/works/campvisorrating.png" alt="walknote" />
+      
+     
+      {/* <WorkImage src="/images/works/walknote_05.png" alt="walknote" /> */}
     </Container>
   </Layout>
 )

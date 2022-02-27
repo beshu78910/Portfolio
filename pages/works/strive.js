@@ -1,13 +1,12 @@
 import {
-  Box,
+ 
   Container,
   Badge,
   Link,
   List,
   ListItem,
   SimpleGrid,
-  UnorderedList,
-  Image
+
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -66,7 +65,7 @@ const Work = () => (
         </ListItem> */}
         <ListItem>
           <Meta>Source</Meta>
-          <Link href="https://github.com/beshu78910/Strive2">
+          <Link href="https://github.com/beshu78910/Strive2" target="_blank">
           github.com/beshu78910/Strive2 <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

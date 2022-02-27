@@ -5,9 +5,6 @@ import {
   Link,
   List,
   ListItem,
-  UnorderedList,
-  Heading,
-  Center
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
@@ -17,6 +14,7 @@ import Layout from '../../components/layouts/article'
 const Work = () => (
   <Layout title="3D FPS Game">
     <Container>
+    
       <Title>
         Something In The Wood <Badge>2021</Badge>
       </Title>
@@ -32,13 +30,13 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Report</Meta>
-          <Link href="https://speakerdeck.com/craftzdog/the-fun-deep-learning">
+          <Link href="https://drive.google.com/file/d/1njqoEQ1i9hf7ErKvaykFAKyrYYuxIfg3/view?usp=sharing" target="_blank">
             STIW Project <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Source Code</Meta>
-          <Link href="https://github.com/beshu78910/3DFPSGame">
+          <Link href="https://github.com/beshu78910/3DFPSGame" target="_blank">
           github.com/beshu78910/3DFPSGame{' '}
             <ExternalLinkIcon mx="2px" />
           </Link>
@@ -76,6 +74,7 @@ const Work = () => (
       </UnorderedList> */}
 
       <Box>
+        
         <iframe
           src="https://player.vimeo.com/video/680954251"
           width="100%"
@@ -84,7 +83,6 @@ const Work = () => (
           allowFullScreen
         />
       </Box>
-
       <WorkImage
         src="/images/works/stiwhouse.png"
         alt="walknote"
