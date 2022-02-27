@@ -17,16 +17,16 @@ const Main = ({ children, router }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Duy Anh Nguyen's homepage" />
         <meta name="author" content="Duy Anh Nguyen" />
-        <meta name="author" content="craftzdog" />
+        <meta name="author" content="dan" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@duyanhnguyen" />
         <meta name="twitter:creator" content="@duyanhnguyen" />
-        <meta name="twitter:image" content="/card.png" />
+        <meta name="twitter:image" content="/cardmain.png" />
         <meta property="og:site_name" content="Duy Anh Nguyen's Homepage" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/card.png" />
+        <meta property="og:image" content="/cardmain.png" />
         <title>Duy Anh Nguyen - Homepage</title>
       </Head>
 
