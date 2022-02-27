@@ -81,7 +81,7 @@ const Home = () => (
           . */}
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/works" scroll={false}>
+          <NextLink href="/works" scroll={false} passHref>
             <Button rightIcon={<IoCaretForwardCircle/>} colorScheme="green">
               Projects
               
