@@ -23,10 +23,10 @@ const Main = ({ children, router }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@duyanhnguyen" />
         <meta name="twitter:creator" content="@duyanhnguyen" />
-        <meta name="twitter:image" content="/card.png" />
+        <meta name="twitter:image" content="/cardmain.png" />
         <meta property="og:site_name" content="Duy Anh Nguyen's Homepage" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/card.png" />
+        <meta property="og:image" content="/cardmain.png" />
         <title>Duy Anh Nguyen - Homepage</title>
       </Head>
 
