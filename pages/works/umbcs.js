@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="UMBCS">
     <Container>
       <Title>
-        UMBCS <Badge>FRONT-END</Badge>
+        UMBCS <Badge>2021</Badge>
       </Title>
       <P>
         The goal of this project is to implement a new website with improved functionality and design while eliminating the limitations of the old UMBCS website. 
