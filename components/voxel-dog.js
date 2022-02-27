@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import * as THREE from 'three'
-import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader'
+// import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { loadGLTFModel } from '../lib/model'
 
@@ -68,9 +68,9 @@ const VoxelDog = () => {
       // const innerHeight = window.height;
       // const camera = new THREE.PerspectiveCamera(45, width / innerHeight, 1, 1000);
 
-      // camera.position.copy(initialCameraPosition)
-      // camera.lookAt(target)
-      // setCamera(camera)
+      camera.position.copy(initialCameraPosition)
+      camera.lookAt(target)
+      setCamera(camera)
 
       const ambientLight = new THREE.AmbientLight(0xcccccc, 1)
       scene.add(ambientLight)

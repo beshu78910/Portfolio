@@ -26,7 +26,7 @@ const Work = () => (
         will suggest great shops for you. It supports 900+ famous ramen shops in
         Japan! */}
         Project Strive is a 3D fighting game took inspiration an older title called
-        "Fighting Force". Player will be able to choose between two characters, each with 
+        Fighting Force. Player will be able to choose between two characters, each with 
         unique movesets and animations build from various of different animation libraries such as Mixamo.
         Project Strive also has a complete interactive menu and AI system with two unique stages.
         
