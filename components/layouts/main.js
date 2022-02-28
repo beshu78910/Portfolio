@@ -15,7 +15,7 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Duy Anh Nguyen's homepage" />
+        <meta name="description" content="Dan's Portfolio" />
         <meta name="author" content="Duy Anh Nguyen" />
         <meta name="author" content="dan" />
         {/* <link rel="apple-touch-icon" href="apple-touch-icon.png" />
@@ -24,7 +24,7 @@ const Main = ({ children, router }) => {
         <meta name="twitter:site" content="@duyanhnguyen" />
         <meta name="twitter:creator" content="@duyanhnguyen" />
         <meta name="twitter:image" content="/cardmain.png" />
-        <meta property="og:site_name" content="Duy Anh Nguyen's Homepage" />
+        <meta property="og:site_name" content="Dan's Portfolio" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/cardmain.png" />
         <title>Duy Anh Nguyen - Homepage</title>
